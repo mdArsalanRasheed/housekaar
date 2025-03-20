@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Housekaar/static/css/main.2257df9f.css",
+    "main.js": "/Housekaar/static/js/main.3e7ba8e7.js",
+    "static/js/453.e53e155f.chunk.js": "/Housekaar/static/js/453.e53e155f.chunk.js",
+    "static/media/pexels-aadil-2884867.jpg": "/Housekaar/static/media/pexels-aadil-2884867.6bd7b3503dd89b45151b.jpg",
+    "static/media/resid_construction.jpg": "/Housekaar/static/media/resid_construction.35ffec42597cacacf67f.jpg",
+    "static/media/pexels-heyho-8143707.jpg": "/Housekaar/static/media/pexels-heyho-8143707.1355a851913ef197d9b3.jpg",
+    "static/media/pexels-falling4utah-1080696.jpg": "/Housekaar/static/media/pexels-falling4utah-1080696.3ced0df5d5e9bdd26395.jpg",
+    "static/media/pexels-pavel-danilyuk-7937323.jpg": "/Housekaar/static/media/pexels-pavel-danilyuk-7937323.e1e2bb687c9df8b3ddeb.jpg",
+    "static/media/pexels-pixabay-221506.jpg": "/Housekaar/static/media/pexels-pixabay-221506.abe966912bd1f0e8deda.jpg",
+    "static/media/pexels-jonathanborba-5563472.jpg": "/Housekaar/static/media/pexels-jonathanborba-5563472.6b4843cbac15467aefc9.jpg",
+    "static/media/pexels-itsterrymag-2635038.jpg": "/Housekaar/static/media/pexels-itsterrymag-2635038.ff8550c8056c95613df3.jpg",
+    "static/media/pexels-b3stography-913753.jpg": "/Housekaar/static/media/pexels-b3stography-913753.27a0eee91db45263cff0.jpg",
+    "static/media/pexels-rdne-6806443.jpg": "/Housekaar/static/media/pexels-rdne-6806443.1952d4f05002c2faf8d9.jpg",
+    "static/media/pexels-rajreetasen-1684724.jpg": "/Housekaar/static/media/pexels-rajreetasen-1684724.27ba32ddeebfbf31cb0c.jpg",
+    "static/media/pexels-ekaterina-bolovtsova-7307714.jpg": "/Housekaar/static/media/pexels-ekaterina-bolovtsova-7307714.bbc2e3b4ab3d334876c4.jpg",
+    "static/media/pexels-anete-lusina-4792491.jpg": "/Housekaar/static/media/pexels-anete-lusina-4792491.f37d39a10afd19389efb.jpg",
+    "static/media/pexels-expect-best-79873-323780.jpg": "/Housekaar/static/media/pexels-expect-best-79873-323780.081bdeb6bfdddf410934.jpg",
+    "static/media/pexels-ivan-samkov-4458202.jpg": "/Housekaar/static/media/pexels-ivan-samkov-4458202.68a697ec0e7376185a6b.jpg",
+    "static/media/exterior.jpg": "/Housekaar/static/media/exterior.89786aca96eade270438.jpg",
+    "static/media/pexels-czapp-arpad-3647289-11945102.jpg": "/Housekaar/static/media/pexels-czapp-arpad-3647289-11945102.38418e5784f86c03fa0b.jpg",
+    "static/media/interior.jpg": "/Housekaar/static/media/interior.2298c2e97696f749d6c2.jpg",
+    "static/media/dream_home.jpg": "/Housekaar/static/media/dream_home.17aa0cc793fede9fc07f.jpg",
+    "static/media/pexels-googledeepmind-25626520.jpg": "/Housekaar/static/media/pexels-googledeepmind-25626520.d6342b3441054f565a5b.jpg",
+    "static/media/houseplan.jpg": "/Housekaar/static/media/houseplan.bd1201c41404c1ef765f.jpg",
+    "static/media/pexels-jakubzerdzicki-30332467.jpg": "/Housekaar/static/media/pexels-jakubzerdzicki-30332467.8e1cf3c79dce2672ce0f.jpg",
+    "static/media/pexels-mo-eid-1268975-8657160.jpg": "/Housekaar/static/media/pexels-mo-eid-1268975-8657160.b1a0395020db6c94b260.jpg",
+    "static/media/13-best-tools-cover.jpg": "/Housekaar/static/media/13-best-tools-cover.165d54a1d7781b68d927.jpg",
+    "static/media/360_F_424116219_suX3QZmhlHPyvRc8tVBDJ7omMjh5XbgF.jpg": "/Housekaar/static/media/360_F_424116219_suX3QZmhlHPyvRc8tVBDJ7omMjh5XbgF.b65cc9c840f652bb4cb1.jpg",
+    "static/media/side_elevationjpg.jpg": "/Housekaar/static/media/side_elevationjpg.470a9baa301152e4a3de.jpg",
+    "static/media/deve.jpg": "/Housekaar/static/media/deve.e395e81214c589ce9a91.jpg",
+    "index.html": "/Housekaar/index.html",
+    "main.2257df9f.css.map": "/Housekaar/static/css/main.2257df9f.css.map",
+    "main.3e7ba8e7.js.map": "/Housekaar/static/js/main.3e7ba8e7.js.map",
+    "453.e53e155f.chunk.js.map": "/Housekaar/static/js/453.e53e155f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2257df9f.css",
+    "static/js/main.3e7ba8e7.js"
+  ]
+}
