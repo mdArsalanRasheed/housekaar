@@ -1,0 +1,119 @@
+header {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header.hidden {
+  top: -100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-right: 10px;
+}
+
+.whatsapp-icon-nav a {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+}
+
+#nav-list li {
+  margin-left: 20px;
+}
+
+#nav-list li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  position: relative;
+  padding: 5px 10px;
+}
+
+#nav-list li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #007bff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#nav-list li a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#nav-list li a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  #nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Start below the header */
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    text-align: center;
+    transform: translateY(-10px); /* start 10px above the natural position */
+    opacity: 0; /* start invisible */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add transition */
+    z-index:99; /* make sure its below the header */
+  }
+
+  #nav-list.active {
+    display: flex;
+    transform: translateY(0); /* slide down to natural position */
+    opacity: 1; /* make visible */
+  }
+
+  #nav-list li {
+    margin: 10px 0;
+  }
+
+  #nav-list li a {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+}

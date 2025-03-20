@@ -1,0 +1,27 @@
+.project-container {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .project-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .project-details p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .project-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }

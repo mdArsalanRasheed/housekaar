@@ -1,0 +1,72 @@
+.reusable-steps-container {
+    background-color: #f8f9fa;
+  }
+  
+  .reusable-steps-content {
+    max-width: 1200px; /* Increased max-width for grid layout */
+    margin: 0 auto;
+  }
+  
+  .steps-title {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 800;
+  }
+  
+  .steps-list {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+    gap: 30px; /* Gap between grid items */
+    padding: 0 20px; /* Add padding to grid container */
+  }
+  
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .step-icon {
+    margin-right: 25px;
+    flex-shrink: 0;
+  }
+  
+  .add-circle-icon {
+    font-size: 2.5rem;
+    color: #0247f7;
+  }
+  
+  .step-details {
+    flex-grow: 1;
+  }
+  
+  .step-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #343a40;
+    font-weight: 500;
+  }
+  
+  .step-description {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.7;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .step-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .step-icon {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }

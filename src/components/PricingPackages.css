@@ -1,0 +1,36 @@
+.pricing-packages {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8f8; /* Light background for contrast */
+  }
+  
+  .pricing-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .pricing-packages h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .pricing-packages p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .view-packages-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-packages-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+  }

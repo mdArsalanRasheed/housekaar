@@ -1,0 +1,50 @@
+.reusable-landing-container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .reusable-landing-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .reusable-landing-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .reusable-landing-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .reusable-landing-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .reusable-landing-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .reusable-landing-content p {
+      font-size: 1rem;
+    }
+  }

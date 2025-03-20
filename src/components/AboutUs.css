@@ -1,0 +1,77 @@
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px; /* Increased padding for better spacing */
+    background-color: #f9f9f9;
+    font-size: 18px; /* Increased base font size */
+    line-height: 1.7; /* Increased line-height for readability */
+  }
+  
+  .about-us-content {
+    max-width: 65%; /* Slightly increased max-width */
+    padding: 30px; /* Increased padding */
+  }
+  
+  .about-us-content h2 {
+    margin-bottom: 25px; /* Increased margin */
+    color: #333;
+    font-size: 28px; /* Increased heading font size */
+  }
+  
+  .about-us-content p {
+    margin-bottom: 20px; /* Increased margin */
+    color: #555; /* Slightly darker text for better contrast */
+  }
+  
+  .about-us-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px; /* Added margin above the list */
+  }
+  
+  .about-us-content li {
+    position: relative;
+    padding-left: 30px; /* Increased padding for tick space */
+    margin-bottom: 12px; /* Increased margin */
+    color: #555;
+  }
+  
+  .about-us-content li::before {
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 20px; /* Increased tick size */
+    line-height: 1;
+  }
+  
+  .about-us-image {
+    max-width: 35%; /* Slightly decreased max-width */
+    padding: 30px; /* Increased padding */
+    text-align: center;
+  }
+  
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Slightly larger border radius */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-container {
+      flex-direction: column;
+      padding: 30px 15px; /* Adjusted padding for smaller screens */
+    }
+  
+    .about-us-content,
+    .about-us-image {
+      max-width: 100%;
+      padding: 20px; /* Adjusted padding for smaller screens */
+    }
+  
+    .about-us-content h2 {
+      font-size: 24px; /* Adjusted heading size for smaller screens */
+    }
+  }

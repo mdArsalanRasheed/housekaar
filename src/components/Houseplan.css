@@ -1,0 +1,102 @@
+.house-plan-page {
+  text-align: center;
+}
+
+.additional-sections {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.additional-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.additional-section:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.floor-plan-detail {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.floor-plan-detail img {
+  max-width: 50%;
+  height: auto;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.room-details {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+.room-detail {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.room-detail:last-child {
+  border-bottom: none;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0;
+}
+
+.faq-question {
+  font-weight: 600;
+  cursor: pointer;
+  color: #333;
+}
+
+.faq-answer {
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #555;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 25px;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+/* Updated list styles */
+ul li {
+  font-size: 1.15rem; /* Slightly larger list item size */
+  margin-bottom: 8px; /* Added margin for better spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .floor-plan-detail {
+    flex-direction: column;
+  }
+
+  .floor-plan-detail img {
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}

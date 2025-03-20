@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-size: 18px; /* Base font size for the entire body */
+    line-height: 1.7; /* Base line height for the entire body */
+    color: #333; /* Base text color */
+    font-family: 'Lato', sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  h1 {
+    font-size: 36px; /* Larger font size for h1 headings */
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 800;
   }
-}
+  
+  h3 {
+    font-size: 24px; /* Larger font size for h3 headings */
+    line-height: 1.4;
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  
+  h4, h5, h6 {
+    font-size: 20px; /* Larger font size for h4, h5, h6 headings */
+    line-height: 1.5;
+    margin-bottom: 14px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 18px; /* Consistent paragraph font size */
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  ul, ol {
+    font-size: 18px; /* List font size */
+    line-height: 1.7;
+    margin-bottom: 20px;
+    padding-left: 20px; /* Add some padding for list indentation */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  a {
+    font-size: 18px; /* Anchor font size */
+    line-height: 1.7;
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  button, input, select, textarea {
+    font-size: 18px; /* Form element font size */
+    line-height: 1.5;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Add more specific styles as needed */
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px; /* Adjust base font size for smaller screens */
+      line-height: 1.6;
+    }
+  
+    h1 {
+      font-size: 30px; /* Adjust heading sizes for smaller screens */
+    }
+  
+    h2 {
+      font-size: 26px;
+    }
+  
+    h3 {
+      font-size: 22px;
+    }
+  
+    h4, h5, h6 {
+      font-size: 18px;
+    }
+  }

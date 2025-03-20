@@ -1,0 +1,28 @@
+.projects-page {
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  align-content: space-around;
+  justify-content: end;
+  align-items: start;
+  justify-items: stretch;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.expanded-project-content {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}

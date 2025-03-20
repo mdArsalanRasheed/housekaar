@@ -1,0 +1,65 @@
+.elevation-page {
+    text-align: center;
+  }
+  
+  .elevation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .elevation-description {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+  
+  .elevation-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .elevation-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .elevation-details {
+    padding: 20px;
+  }
+  .elevation-construction {
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    padding: 30px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  
+  
+  .elevation-examples {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .elevation-image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* allows the images to wrap on smaller screens */
+  }
+  
+  .elevation-image-container img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }

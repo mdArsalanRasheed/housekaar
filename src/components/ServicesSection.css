@@ -1,0 +1,68 @@
+.site-supervision,
+.construction-design {
+  padding: 20px;
+  text-align: center;
+}
+
+.supervision-content,
+.design-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.supervision-item,
+.design-item {
+  width: 300px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex; /* Added to enable flex column layout */
+  flex-direction: column; /* Added to stack elements vertically */
+}
+
+.supervision-image,
+.design-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.supervision-item h3,
+.design-item h3 {
+  padding: 10px;
+  margin: 0;
+}
+
+.supervision-item p,
+.design-item p {
+  padding: 0 10px 10px;
+  margin: 0;
+  flex-grow: 1; /* Added to push content up and button down */
+}
+
+.supervision-item a,
+.design-item a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+
+.supervision-item a:hover,
+.design-item a:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .supervision-item,
+  .design-item {
+    width: 100%;
+  }
+}
